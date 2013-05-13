@@ -1,0 +1,8 @@
+name = Views System Message
+description = A views plugin to show system messages in views area.
+package = Views
+core = 7.x
+
+dependencies[] = views (>=3.x)
+
+files[] = views/handlers/views_handler_area_system_message.inc
