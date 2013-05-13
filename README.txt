@@ -1,8 +1,8 @@
 Requirements
-1. Views module (http://drupal.org/project/views).
+1. Views (3.x) module (http://drupal.org/project/views).
 
 Installation
-1. Unpack and move directory "views_message" to your modules directory.
+1. Unpack and move directory "views_system_message" to your modules directory.
 2. Enable it in the modules list of your site.
 3. Create new view via "views" module.
 4. Add new header or footer.
