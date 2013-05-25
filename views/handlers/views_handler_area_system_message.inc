@@ -103,7 +103,7 @@ class views_handler_area_system_message extends views_handler_area {
         'class' => $class,
         'message' => $message,
       );
-      return theme('views_system_message_container', $message);
+      return theme('views_system_message', $message);
     }
   }
 
