@@ -6,7 +6,7 @@
 function views_system_message_views_api() {
   return array(
     'api' => '3',
-    'path' => drupal_get_path('module', 'views_system_message').'/views',
+    'path' => drupal_get_path('module', 'views_system_message') . '/views',
   );
 }
 
@@ -32,5 +32,6 @@ function views_system_message_theme() {
  *   Includes the 'type', 'class' and 'message' variables.
  */
 function theme_views_system_message($variables) {
-  return '<div class="messages views-system-message ' . $variables['type'] . $variables['class'] . '">' . $variables['message'] . '</div>';
+  return '<div class="messages views-system-message ' . $variables['type'] .
+    $variables['class'] . '">' . $variables['message'] . '</div>';
 }
