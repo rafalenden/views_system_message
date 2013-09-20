@@ -1,4 +1,4 @@
-name = Views System Message
+name = Views system message
 description = A views plugin to show system messages in views area.
 package = Views
 core = 7.x

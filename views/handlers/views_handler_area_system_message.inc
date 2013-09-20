@@ -34,6 +34,7 @@ class views_handler_area_system_message extends views_handler_area {
 
     $form['text'] = array(
       '#type' => 'text_format',
+      '#title' => t('Message'),
       '#default_value' => $this->options['text'],
       '#rows' => 3,
       '#format' => isset($this->options['format']) ? $this->options['format'] : filter_default_format(),
@@ -106,5 +107,4 @@ class views_handler_area_system_message extends views_handler_area {
       return theme('views_system_message', $message);
     }
   }
-
 }
